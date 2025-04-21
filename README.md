@@ -1,4 +1,4 @@
-# 📈 The Impact of Earnings Surprises on Post-Announcement Drift in U.S. Equities
+# The Impact of Earnings Surprises on Post-Announcement Drift in U.S. Equities
 
 This research project investigates the relationship between earnings surprises and post-earnings announcement drift (PEAD) in U.S. equities. It explores whether stocks with greater earnings surprises systematically experience abnormal returns following earnings announcements, using event-study methodology and regression analysis.
 
