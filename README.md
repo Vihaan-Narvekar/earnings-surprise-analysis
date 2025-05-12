@@ -15,9 +15,8 @@ Post-earnings announcement drift (PEAD) is a well-documented anomaly in financia
 1. **Data Collection**
    - Historical price and earnings data sourced via Yahoo Finance or financial APIs.
    - Earnings surprise calculated as:
-     \[
-     \text{Earnings Surprise (\%)} = \frac{\text{Actual EPS} - \text{Estimated EPS}}{|\text{Estimated EPS}|} \times 100
-     \]
+     Earnings Surprise % = ((Actual EPS - Estimated EPS) / Estimated EPS ) * 100
+   
 
 2. **Event Study Setup**
    - Defines an event window around earnings announcements.
@@ -26,9 +25,7 @@ Post-earnings announcement drift (PEAD) is a well-documented anomaly in financia
 
 3. **Statistical Analysis**
    - Cross-sectional regression:
-     \[
-     \text{CAR}_{[t_1,t_2]} = \alpha + \beta \cdot \text{Earnings Surprise} + \varepsilon
-     \]
+   CAR[t₁, t₂] = α + β × Earnings Surprise + ε
    - Evaluation of statistical significance and robustness.
 
 ---
